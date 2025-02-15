@@ -1,0 +1,64 @@
+/*
+
+Syntaxe CSS
+
+seletor{
+
+vlastnost-1: hodnota;
+vlastnost-2: hodnota;
+vlastnost-3: hodnota;
+...
+vlastnost-n: hodnota;
+
+}
+
+*/
+
+body {
+    background-color: rgb(151, 157, 255);
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-wrapper {
+    /* max-width: 50%; */
+    width: 80%;
+    margin: 0 auto;
+    /* zarovnani a stred */
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+
+}
+  
+nav a
+
+/* a - вся наша навигация будет иметь эти hodnoty*/
+    {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: red;
+}
+
+.grid-container {
+    background-color: rgb(203, 203, 255);
+    display: grid;
+    grid-template-columns: auto auto;
+}
